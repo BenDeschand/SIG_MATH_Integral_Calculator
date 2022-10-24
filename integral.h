@@ -2,15 +2,13 @@
 
 using namespace std;
 
-class integCal {
+class IntegCal {
     private: 
         string equation;
         string var;
     
     public:
-        integCal();
-        integCal(string equation, string var);
-
-        
+        IntegCal();
+        IntegCal(string equation, string var);
 
 };
