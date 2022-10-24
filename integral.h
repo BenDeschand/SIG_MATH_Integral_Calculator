@@ -11,6 +11,8 @@ class integCal {
         integCal();
         integCal(string equation, string var);
 
+        void setVar(string var);
+
         
 
 };
