@@ -47,8 +47,8 @@ Class deriv
 
 Class IntegCal
 	private:
-		String equation
-		String variable
+		String equation        // done
+		String variable        // done
 
 	public:
 		constructors
@@ -57,4 +57,4 @@ Class IntegCal
 		Look for division
 		Look for multiplication
 		Trigonmetric check 
-		
+

@@ -12,7 +12,7 @@ IntegCal::IntegCal(string equation, string var) {
 }
 
 vector<int> IntegCal::findingDivision(string equation){
-    string find = "/";
+    char find = '/';
     vector<int> indexFound;
 
     for(int i = 0; i < equation.size(); i++){
