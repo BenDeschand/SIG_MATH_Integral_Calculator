@@ -1,2 +1,0 @@
-#include "integral.h"
-
