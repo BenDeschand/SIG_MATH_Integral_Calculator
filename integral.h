@@ -1,4 +1,5 @@
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -9,9 +10,11 @@ class IntegCal {
     
     public:
 
-        integCal();
-        integCal(string equation, string var);
+        IntegCal();
+        IntegCal(string equation, string var);
 
         void setVar(string var);
+
+        vector<int> findingDivision(string equation);
 
 };

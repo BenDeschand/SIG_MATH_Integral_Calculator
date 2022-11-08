@@ -13,3 +13,15 @@ IntegCal::IntegCal(string equation, string var) {
     this->equation = equation;
     this->var = var;
 }
+
+vector<int> IntegCal::findingDivision(string equation){
+    string find = "/";
+    vector<int> indexFound;
+
+    for(int i = 0; i < equation.size(); i++){
+        if(find == equation[i]){
+            indexFound.push_back(i);
+        }
+    }
+    return indexFound;
+}
