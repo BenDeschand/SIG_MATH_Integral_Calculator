@@ -1,4 +1,5 @@
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -14,4 +15,7 @@ class IntegCal {
 
         void setVar(string var);
         void setEq(string equation);
+        
+        vector<int> findingDivision(string equation);
+
 };
