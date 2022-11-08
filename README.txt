@@ -43,3 +43,18 @@ Class deriv
 		Create answer
 		Solve method			// done (Adam)
 		Power rule
+
+
+Class IntegCal
+	private:
+		String equation
+		String variable
+
+	public:
+		constructors
+		accessors
+		Look for exponent
+		Look for division
+		Look for multiplication
+		Trigonmetric check 
+		
