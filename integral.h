@@ -8,7 +8,10 @@ class IntegCal {
         string var;
     
     public:
-        IntegCal();
-        IntegCal(string equation, string var);
+
+        integCal();
+        integCal(string equation, string var);
+
+        void setVar(string var);
 
 };

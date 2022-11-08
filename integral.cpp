@@ -1,5 +1,7 @@
 #include "integral.h"
 
+void integCal::setVar(string var) {
+
 
 
 IntegCal::IntegCal() {
