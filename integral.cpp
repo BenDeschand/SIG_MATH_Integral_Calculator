@@ -1,8 +1,5 @@
 #include "integral.h"
 
-void integCal::setVar(string var) {
-
-
 
 IntegCal::IntegCal() {
     equation = "";
@@ -24,4 +21,12 @@ vector<int> IntegCal::findingDivision(string equation){
         }
     }
     return indexFound;
+}
+
+void IntegCal::setVar(string var) {
+    this->var = var;
+}
+
+void IntegCal::setEq(string equation) {
+    this->equation = equation;
 }

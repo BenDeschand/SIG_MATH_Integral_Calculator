@@ -14,7 +14,8 @@ class IntegCal {
         IntegCal(string equation, string var);
 
         void setVar(string var);
-
+        void setEq(string equation);
+        
         vector<int> findingDivision(string equation);
 
 };
