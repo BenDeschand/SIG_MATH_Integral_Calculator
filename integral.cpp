@@ -1,8 +1,5 @@
 #include "integral.h"
 
-void integCal::setVar(string var) {
-
-
 
 IntegCal::IntegCal() {
     equation = "";
@@ -12,4 +9,12 @@ IntegCal::IntegCal() {
 IntegCal::IntegCal(string equation, string var) {
     this->equation = equation;
     this->var = var;
+}
+
+void IntegCal::setVar(string var) {
+    this->var = var;
+}
+
+void IntegCal::setEq(string equation) {
+    this->equation = equation;
 }

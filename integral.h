@@ -9,9 +9,9 @@ class IntegCal {
     
     public:
 
-        integCal();
-        integCal(string equation, string var);
+        IntegCal();
+        IntegCal(string equation, string var);
 
         void setVar(string var);
-
+        void setEq(string equation);
 };
