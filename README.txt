@@ -51,10 +51,10 @@ Class IntegCal
 		String variable
 
 	public:
-		constructors
+		constructors 
 		accessors
 		Look for exponent
-		Look for division
+		Look for division           //done (Ali)    
 		Look for multiplication
 		Trigonmetric check 
 		
