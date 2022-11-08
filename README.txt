@@ -56,5 +56,6 @@ Class IntegCal
 		Look for exponent
 		Look for division
 		Look for multiplication
+		Look for addition      // done (Ben)
 		Trigonmetric check 
 
