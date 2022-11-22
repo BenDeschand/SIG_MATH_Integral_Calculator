@@ -18,5 +18,7 @@ class IntegCal {
         
         vector<int> findingDivision(string eq);
         vector<int> findingAdd(string eq);
+        vector<int> findingMultiplication(string eq);
+        vector<int> findingExponent(string eq);
 
 };

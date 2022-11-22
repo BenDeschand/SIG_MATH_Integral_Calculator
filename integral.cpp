@@ -39,7 +39,32 @@ vector<int> IntegCal::findingAdd(string eq) {
         if(find == eq[i]) {
             indexFound.push_back(i);
         }
-
-        return indexFound;
     }
+    return indexFound;
+}
+
+vector<int> IntegCal::findingMultiplication(string eq) {
+    char find = '*';
+    vector <int> indexOfAstrik;
+
+    for(int i = 0; i < eq.size(); i++) {
+        if(find == eq[i]){
+            indexOfAstrik.push_back(i);
+        }
+    }
+    return indexOfAstrik;
+}
+
+vector<int> IntegCal::findingExponent(string eq) {
+    char find = '^';
+    vector<int> indexFound;
+
+    for(int i = 0; i < eq.size(); i++) {
+        if(find == eq[i]) {
+            indexFound.push_back(i);
+        }
+    }
+
+    return indexFound;
+
 }
