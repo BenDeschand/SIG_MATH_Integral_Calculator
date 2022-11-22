@@ -53,9 +53,11 @@ Class IntegCal
 	public:
 		constructors 
 		accessors
+
 		Look for exponent
 		Look for division           //done (Ali)    
 		Look for multiplication
+
 		Look for addition      // done (Ben)
 		Trigonmetric check 
 
