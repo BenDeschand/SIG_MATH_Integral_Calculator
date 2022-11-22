@@ -43,7 +43,7 @@ vector<int> IntegCal::findingAdd(string eq) {
     return indexFound;
 }
 
-vector <int> IntegCal::findingMultiplication(string eq) {
+vector<int> IntegCal::findingMultiplication(string eq) {
     char find = '*';
     vector <int> indexOfAstrik;
 
@@ -55,7 +55,7 @@ vector <int> IntegCal::findingMultiplication(string eq) {
     return indexOfAstrik;
 }
 
-vector <int> IntegCal::findingExponent(string eq) {
+vector<int> IntegCal::findingExponent(string eq) {
     char find = '^';
     vector<int> indexFound;
 
@@ -64,7 +64,7 @@ vector <int> IntegCal::findingExponent(string eq) {
             indexFound.push_back(i);
         }
     }
-    
+
     return indexFound;
 
 }
